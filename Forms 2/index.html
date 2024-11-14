@@ -1,0 +1,103 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Forms</title>
+    <link rel="stylesheet" href="style.css" />
+  </head>
+  <body>
+    <h1 class="appicationForm">Application Form</h1>
+    <div>
+      <form>
+        <div>
+          <fieldset>
+            <legend>Please enter your personal details</legend>
+          </fieldset>
+        </div>
+        <div>
+          <label for="firstName">First name</label>
+          <input id="firstName" />
+        </div>
+        <div>
+          <label for="secondName">Second name</label>
+          <input id="secondName" />
+        </div>
+        <div>
+          <label>Date of Birth</label>
+          <input type="date" />
+        </div>
+        <div>
+          <label>Birth Date and Time</label>
+          <input type="datetime-local" />
+        </div>
+        <div>
+          <label>Email</label>
+          <input type="email" />
+        </div>
+        <div>
+          <label>Password</label>
+          <input type="password" />
+        </div>
+        <div>
+          <label>Text</label>
+          <input type="text" />
+        </div>
+        <div>
+          <label>Number</label>
+          <input type="number" />
+        </div>
+        <div>
+          <label>Gender</label>
+          <input type="radio" name="Gender" />
+          <label class="genderName">Female</label>
+          <input type="radio" name="Gender" />
+          <label class="genderName">Male</label>
+          <input type="radio" name="Gender" />
+          <label class="genderName">Others</label>
+        </div>
+        <div>
+          <label>Colors</label>
+          <input type="checkbox" name="colors" />
+          <label class="genderName">Red</label>
+          <input type="checkbox" name="colors" />
+          <label class="genderName">Blue</label>
+          <input type="checkbox" name="colors" />
+          <label class="genderName">Green</label>
+        </div>
+        <div>
+          <label>Folders</label>
+          <input type="file" multiple accept="image/*" />
+        </div>
+        <div>
+          <label>Telephone</label>
+          <input type="tel" />
+        </div>
+        <div>
+          <label>Search</label>
+          <input type="search" />
+        </div>
+        <div>
+          <label>color</label>
+          <input type="color" />
+        </div>
+        <div>
+          <label>Page URLs</label>
+          <input type="url" />
+        </div>
+        <div>
+          <label>Brightness Range</label>
+          <input type="range" />
+        </div>
+        <div>
+          <label id="buttonValue1"></label>
+          <button id="buttonValue" type="reset">Click Here</button>
+        </div>
+        <div>
+          <label></label>
+          <input type="image" src="./images/submit.png" style="width: 300px" />
+        </div>
+      </form>
+    </div>
+  </body>
+</html>
